@@ -19,7 +19,7 @@ body {
 	background: var(--bg-color);
 	padding-left: 30rem;
 	&.active {
-		--red: #fff;
+		--red: #ffffff;
 		--light-color: #ddd;
 		--bg-color: #6fa7ff;
 		--black: #000;
@@ -40,7 +40,7 @@ section {
 	font-size: 1.7rem;
 	cursor: pointer;
 	background: none;
-	color: var(--red);
+	color: var(--black);
 	box-shadow: var(--box-shadow);
 	&:hover {
 		box-shadow: var(--box-shadow-inset);
